@@ -1,0 +1,218 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex:1;
+    padding-bottom: 10%;
+   
+}
+
+table{
+     padding-top:10%;
+}
+
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* -- Estilos de logotipo -- */
+
+header .logotipo h2,
+header .logotipo span,
+header .logotipo p{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logotipo h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .logotipo .icono{
+    color:#bfbfbf
+}
+
+header .logotipo .p{
+    color:#777777;
+}
+
+/* -- Estilos de menú -- */
+
+header .menu{
+    padding: 0;
+}
+
+header .menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 30px;
+}
+
+header .menu a div span{
+    font-weight: 600;
+}
+
+header .menu .color-1{
+    background: #3da5e2;
+}
+
+header .menu .color-2{
+    background: #69aacf;
+}
+
+header .menu .color-3{
+    background: #005385;
+}
+
+header .menu .color-4{
+    background: #003855;
+}
+
+header .menu a div span{
+    font-weight: 600;
+}
+
+header .menu .color-1:hover{
+    background:#70b5dd;
+    
+}
+
+header .menu .color-2:hover{
+    background: #9bd5f6;
+    
+}
+
+header .menu .color-3:hover{
+    background:#447ea0;
+   
+}
+
+header .menu .color43:hover{
+    background:#05415f;
+    
+}
+
+main .container-fluid{
+    padding-left:0;
+    padding-right: 0;
+}
+
+.section .section-info .flex-item{
+    display: block;
+    /*color: #fff;*/
+}
+
+.fila .fila-1{
+    margin-top:20px;
+}
+
+.fila{
+    margin-bottom: 20px;
+}
+
+.lista-categorias{
+    list-style: none
+}
+
+.lista-categorias .list-group-item{
+    
+    padding-bottom: 100px;
+   
+}
+
+.lista-categorias .list-group-item .itemconfig .enlace-categoria{
+    text-decoration: none
+}
+
+.lista-categorias .list-group-item .itemconfig .enlace-categoria .tarjeta-categoria{
+    min-height: 50px;
+    height: 50px;
+}
+
+
+
+.lista-categorias .list-group-item .itemconfig .enlace-categoria .tarjeta-categoria .itemconfig2 .imagen-categoria{
+    border-radius: 8px; 
+   /* height: 10%; 
+    width: 10%;*/
+}
+
+.imagen-inicio{
+    background: url('../imagenes/guitarist-407212_1920.jpg');    
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 200px;    
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 200px;
+}
+
+/*Hover en imágenes página de inicio*/
+
+.card-img-top{
+    filter: grayscale(1);
+
+}
+.card-img-top:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    filter: none;
+    transition: 1s ease;
+}
+
+
+
+footer{
+     background-color: #0275db;
+     padding:20px 0px;
+}	       
+
+footer ul li{
+    padding:5px 0px;
+}
+
+.adress span , .contact span , .social span{
+   color: #FFF; 
+   font-weight: 800; 
+   padding-bottom: 10px; 
+   margin-bottom: 20px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 3px;
+}
+ 
+.adress li p , .contact li a , .social li a{
+    color:#FFF;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:15px;
+}
+
+.social li{
+    float:left;
+}
+
+.adress , .contact , .social {
+    list-style: none;
+}
+
+.fa{
+    color:#9c9c9c;
+    margin-right: 15px;
+    font-size:14px;
+}
